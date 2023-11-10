@@ -1,0 +1,22 @@
+.work {
+  color: #fff;
+  padding: 50px 20px;
+  background: #444;
+}
+
+.work h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background: #555;
+  padding: 20px;
+  border-radius: 8px;
+}
